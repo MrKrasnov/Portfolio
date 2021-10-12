@@ -1,0 +1,41 @@
+@font-face{
+    font-family:"helveticaRegular";    
+    src: url(./HelveticaCERegular.ttf) format("truetype");
+}
+
+
+@font-face {
+    font-family: "LobsterReg";
+    src: url(./LobsterRegular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Perpetua";
+    src: url(./Perpetua.ttf) format("truetype");
+}
+
+@font-face{
+    font-family:"helveticaRegular";    
+    src: url(./HelveticaCERegular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "helveticaLightItalic";
+    src: url(./HelveticaNeueLT46LightItalic.woff) format("woff");
+    font-weight: italic;
+}
+
+@font-face {
+    font-family: "helveticaLightCondensed";
+    src: url(./HelveticaNeueLT47LightCondensed.woff) format("woff");
+}
+
+@font-face {
+    font-family: "helveticaLightCondensedOblique";
+    src: url(./HelveticaNeueLT47LightCondensedOblique.woff) format("woff");
+}
+
+@font-face {
+    font-family: "helveticaCondensedOblique";
+    src: url(./HelveticaNeueLT57CondensedOblique.woff) format("woff");
+}
