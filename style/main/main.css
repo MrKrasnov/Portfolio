@@ -1,0 +1,50 @@
+main{
+    padding-bottom: 70px;
+}
+.main-title{
+    font-family: 'helveticaRegular', Times, serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.main-desc{
+    color: #585555;
+    font-family: 'helveticaRegular', Times, serif;
+    font-size: 15px;
+}
+.main-div{
+    width: 50%;
+}
+.main-div:first-child{
+    margin-right: 20px;
+}
+.main-div:last-child{
+    margin-left: 20px;
+}
+
+.main-names{
+    color: #5b5b5b;
+    font-size: 15px;
+}
+.main-img{
+    width: 147px;
+    height: 113px;
+    border: 4px solid #fff;
+    transition: border 0.7s;
+}
+.main-img:hover{
+    border: 4px solid #da2020;
+}
+.main-img02{
+    background-image: url(../../img/project.jpg);
+}
+.main-img01{
+    background-image: url(../../img/project3.jpg);
+}
+.main-img03{
+    background-image: url(../../img/project2.jpg);
+}
+.main-medium{
+    margin: 0 20px;
+}
