@@ -1,0 +1,27 @@
+.summary-content{
+    margin-left: 200px;
+}
+.summary-name{
+    position: relative;
+    font-family: 'helveticaRegular', Times, serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.summary-name::before{
+    display: block;
+    position: absolute;
+    content: '';
+    background-image: url(../../img/account.jpg);
+    height: 163px;
+    width: 154px;
+    border: 4px solid #fff;
+    margin-left: -200px;
+    margin-top: -100px;
+}
+.summary-worker{
+    font-family: 'helveticaLightCondensed', Times, serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
