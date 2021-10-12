@@ -1,9 +1,3 @@
-@font-face{
-    font-family:"helveticaRegular";    
-    src: url(./HelveticaCERegular.ttf) format("truetype");
-}
-
-
 @font-face {
     font-family: "LobsterReg";
     src: url(./LobsterRegular.ttf) format("truetype");

@@ -15,7 +15,15 @@ header{
     border-left: 2px solid #fff;
 }
 
+.nav-header li:first-child{
+    padding: 0;
+    padding-right: 30px;
+}
+
 .nav-header li a{
+    font-family: "helveticaLightCondensed", Times, serif;
+    font-size: 25px;
+    font-weight: 500;
     transition: color 0.4s;
 }
 
