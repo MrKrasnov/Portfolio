@@ -1,0 +1,18 @@
+.contact{
+    margin-top: 25px;
+}
+.contact p{
+    font-family: 'helveticaRegular', Times, serif;
+    font-size: 20px;
+}
+.contact a{
+    display: block;
+    color:rgb(68, 119, 95);
+    margin-left: 5px;
+}
+.link{
+    color:rgb(68, 119, 95);
+}
+.contact-mobile{
+    align-items: center;
+}

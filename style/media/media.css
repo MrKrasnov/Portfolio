@@ -115,6 +115,14 @@
     .summary-content{
         margin-left: 235px;
     }
+    /* contact block */
+    .contact-mobile{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contact a{
+        margin-left: 0;
+    }
 }
 @media(max-width: 400px){
     /* header */
