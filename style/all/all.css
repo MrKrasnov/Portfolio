@@ -31,6 +31,10 @@ a{
     display: flex;
 }
 
+.grid{
+    display: grid;
+}
+
 .justify-content{
     justify-content: space-between;
 }
