@@ -30,31 +30,27 @@ main{
     font-size: 15px;
 }
 .main-img{
-    width: 147px;
-    height: 75px;
-    border: 4px solid #fff;
-    transition: border 0.7s;
-}
-.main-img:hover{
-    border: 4px solid #da2020;
+    display: block;
+    text-align: center;
+    width: 85px;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid grey;
 }
 .main-img02{
     background-image: url(../../img/portfolio/project_third.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
 }
 .main-img01{
     background-image: url(../../img/portfolio/project_first.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 98%;
 }
 .main-img03{
     background-image: url(../../img/portfolio/project_second.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
 }
 .main-medium{
     margin: 0 20px;
