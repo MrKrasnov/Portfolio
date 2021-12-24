@@ -35,7 +35,6 @@ main{
     width: 85px;
     height: 50px;
     margin: 0 auto;
-    border-bottom: 1px solid grey;
 }
 .main-img02{
     background-image: url(../../img/portfolio/project_third.jpg);
@@ -57,4 +56,34 @@ main{
 }
 .main_ul{
     width: 100%;
+}
+.header_burger{
+    display: flex;
+    justify-content: center;
+}
+.header_burget_btn{
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #da2020;
+    border-radius: 50%;
+    position: relative;
+}
+.header_burget_btn span,
+.header_burget_btn span::before,
+.header_burget_btn span::after {
+  position: absolute;
+  top: 50%; margin-top: -1px;
+  left: 50%; margin-left: -6px;
+  width: 12px;
+  height: 2px;
+  background-color: #fff;
+}
+.header_burget_btn span::before {
+    content: '';
+    transform: translateY(-5px);
+}
+.header_burget_btn span::after {
+    content: '';
+    transform: translateY(5px);
 }

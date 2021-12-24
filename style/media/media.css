@@ -45,13 +45,24 @@
         grid-template-columns: 1fr;
     }
 }
+@media(min-width: 700px){
+    .header_burger{
+        display: none;
+    }
+}
 @media(max-width: 700px){
     /* header */
+    header{
+        padding: 10px 0;
+    }
     .HatBg-title{
         font-size: 20px;
     }
-    .nav-header li a{
-        font-size: 15px;
+    .nav-header{
+        display: none;
+    }
+    .HatBg-link{
+        display: none;
     }
     .HatBg-Bg{
         height: 165px;
