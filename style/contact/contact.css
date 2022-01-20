@@ -16,3 +16,17 @@
 .contact-mobile{
     align-items: center;
 }
+.contact-table{
+    font-family: 'helveticaRegular', Times, serif;
+    font-size: 18px;
+    font-weight: normal;
+    border: 1px solid black;
+    border-collapse: collapse;  
+}
+.contact-table a{
+    font-family: 'helveticaRegular', Times, serif;
+}
+.contact-table th, .contact-table td{
+    padding: 10px;
+    border: 1px solid grey;
+}
